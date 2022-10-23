@@ -1,3 +1,4 @@
 # Kokoa Clone 2022 Update
 
-1st play coding
+1st coding
+2022/10/23 leaning : git & github
