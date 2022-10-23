@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa Talk</title>
+</head>
+<body>
+    <!-- ctrl + Alt = 위, 아래 여러줄 선택 -->
+    <!-- Kakao Talk 상단 라인부분 -->
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span>No Service</span>
+            <i class="fa-sharp fa-solid fa-wifi"></i>
+            <!-- To Do : Wifi Icone -->
+        </div>
+        <div class="status-bar_column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar_column">
+            <span>110%</span>
+            <i class="fa-sharp fa-solid fa-battery-full"></i>
+            <i class="fa-sharp fa-solid fa-bolt"></i>
+            <!-- Battery Icon -->
+            <!-- Bolt Icon -->
+        </div>
+    </div>
+    <!-- 헤더파트 -->
+    <header class="Welcome-header">
+        <h1 class="Welcome-header_title">Welcome to KakaoTalk</h1>
+        <p class="Welcome-header_text">
+            If you have a Kakao Account, log in with your email or phone number.
+        </p>
+    </header>
+    <!-- form Tag -->
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number" required>
+        <input type="password" placeholder="Password" required>
+
+        <input type="submit" value="Log in">
+        <input type="submit" value="Sign up">
+        <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    
+
+    <script src="https://kit.fontawesome.com/26f2d41498.js" crossorigin="anonymous"></script>
+    <!-- script는 항상 마지막에 배치 -->
+</body>
+</html>
