@@ -44,6 +44,7 @@ body {
   border-radius: 5px;
 }
 
+/* :not() : 이 타입을 제외한 나머지에 적용 */
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
